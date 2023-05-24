@@ -10,7 +10,7 @@ values = ['Rocks','Papers','Scissors']
 print("---Rock, Papers, Scissor")
 
 done = False
-played = 1
+played = -1
 while done == False:
     value = random.choice(values)
     guess = input("Rocks or Papers or Scissors? or press X to quit: ")
